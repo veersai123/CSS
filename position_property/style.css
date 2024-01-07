@@ -1,0 +1,60 @@
+.a{
+    height: 500px;
+    position: relative;
+    /* relative matlab jaha per ho waha se 50px left shift ho jao */
+    left: 50px;
+    /* TBLR , POSITIO KE SATH MIN EK USE KERNA PEGA*/
+}
+.b{
+    width: 500px;
+}
+.c{
+    background-color: chocolate;
+}
+
+/* Create A Flower In CSS */
+
+#p{
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    /* margin auto se ye center me chla jata hai */
+    /* background-color: red; */
+    overflow: hidden;
+    position: relative;
+}
+.common{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* psotion absolute humesha children ko diya jaat hai
+    per make sure hona chiye ki parent ko position
+    relative diya hona chahiye
+    */
+}
+.brown{
+    background-color: rgb(22, 78, 207);
+    border-top-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+    bottom: 0px;
+    right: 0px;
+}
+.green{
+    background-color: green;
+    top: 0px;
+    right: 0px;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius:300px ;
+}
+.yello{
+    background-color: yellow;
+    bottom: 0px;
+    left: 0px;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius:300px ;
+}
+.purpule{
+background-color: rgb(221, 186, 221);
+border-top-right-radius: 300px;
+border-bottom-left-radius: 300px;
+}

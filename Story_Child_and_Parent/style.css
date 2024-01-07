@@ -1,0 +1,48 @@
+#p{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: brown;
+    /* jab bola ja rha aao sb log gher me aa jao
+    ek baar code run ho chuka hai pura code compile
+    hone ke baad aaya hai
+    */
+    position: relative;
+}
+    
+.c{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    /* charo children corner per set ho jayeneg */
+    /* top: 0px;
+    left: 0px; */
+    /* parent ka gher chorker chle gye */
+}
+
+.c1{
+    background-color: blueviolet;
+    top: 0px;
+    left: 0px;
+}
+.c2{
+    background-color: chocolate;
+    bottom: 0px;
+    left: 0px;
+}
+.c3{
+    background-color: rgb(226, 208, 43);
+    top: 0px;
+    right: 0px;
+}
+.c4{
+    background-color: rgb(27, 23, 20);
+    bottom: 0px;
+    right: 0px;
+}
+
+/* is code me sb apne apne corner per chle jaynege
+gher se baher per jaise hi tum position relative kroge
+vaise hi wo sb gher me apni apni jagh set ho jayege
+keval tumhe parent(P) me postion:relative kerni hai
+*/
